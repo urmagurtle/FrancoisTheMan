@@ -1,0 +1,26 @@
+#include "stdafx.h"
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+{
+	int x = 3;  // telling x = 3
+	cout << 5+x << endl;
+
+
+
+
+    return 0;
+}
+
+
+
+/* 
+
+find x
+
+5+x = 8
+
+*/
