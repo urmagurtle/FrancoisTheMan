@@ -1,0 +1,41 @@
+#include "stdafx.h"
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+
+	double a = 3;
+	double b = 4;
+	double c;
+
+	c = sqrt(pow(a, 2) + pow(b, 2));
+
+		cout << c << endl;
+
+
+
+
+	return 0;
+}
+
+
+/*
+
+pythagoras theorum
+
+Find lenght of base
+Find height
+square both values and add them together
+take the square root
+output that number to the user
+
+
+a = 3
+b = 4
+c = ???
+
+
+*/
