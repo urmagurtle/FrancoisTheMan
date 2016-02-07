@@ -1,0 +1,28 @@
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+
+
+int main()
+{
+	cout << "Please enter first number you cunt nugget:" << endl;
+	int x;
+    cin >> x;
+
+	cout << "Please enter second number you weiner spanker:" << endl;
+	int y;
+	cin >> y;
+
+
+	int answer = x + y;
+	cout << answer << endl;
+
+
+	return 0;
+
+
+
+
+
+}
