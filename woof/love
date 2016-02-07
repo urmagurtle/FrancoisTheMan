@@ -1,0 +1,33 @@
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+int main()
+{
+
+	cout << "If you love me type love" << endl;
+
+	string x;
+
+	cin >> x;
+
+	if (x == "love") {
+		cout << "aw i love you too" << endl;
+
+
+
+
+	}
+
+	else {
+		cout << "well fuck you negro" << endl;
+
+	}
+	return 0;
+
+
+	return 0;
+}
