@@ -1,0 +1,97 @@
+/*
+
+*/
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+int main()
+{
+	int gold = 0;
+	cout << "Welcome to The Swag Adventures" << endl;
+	cout << "Capital letters are necessary" << endl;
+	cout << "You arrive in front of a dark, humid cave. What do you do?" << endl;
+	cout << "Enter or Enter" << endl; 
+	string x1;
+	cin >> x1;
+
+	if (x1 == "Enter") {
+
+		cout << "you enter the cave" << endl;
+
+
+		cout << "In front of you stands a nude troll" << endl;
+		cout << "Do you aim for : Penis Or Head" << endl;
+		cin >> x1;
+
+		if (x1 == "Penis") {
+			cout << "You chop off his penis killing the troll instantly" << endl;
+			cout << "you continue to walk in the cave." << endl;
+			cout << "two paths are in front of you" << endl;
+			cout << "Do you choose to go in the one that is : Spoopy or Dank" << endl;
+			cin >> x1;
+
+			if (x1 == "Spoopy") {
+				cout << "Why would you go in the spoopy path?" << endl;
+				cout << "You die" << endl;
+				//gonna do it later
+				/*cout << "Do what you want" << endl;
+				cout << "There is in front of you a spoopy scary skeleton" << endl; */
+
+
+
+
+			}
+
+
+			//This is where the two main stories come apart
+
+			else if (x1 == "Dank") {
+				cout <<"This is a pretty dank place you find 20 gold" << endl;
+				gold = gold + 20;
+				cout <<"You now have " << gold << " gold"<< endl;
+				cout << "You're a rich nigga now" << endl;
+				cout << "You keep on walking when you see a sign" << endl;
+				cout << "On it, you can read :" << endl;
+				cout << "Hello, i am a nigerian prince and i need you help. If you give me 20 gold, i will share all of my money with you" << endl;
+				cout << "Do you give him your money : Yes or No" << endl;
+				cin >> x1;
+
+				if (x1 == "No") {
+					cout << "A black man dressed in a wizard robe comes out of no where and chops your head off" << endl;
+					cout << "You are dead" << endl;
+
+				}
+				else if (x1 == "Yes") {
+					gold = gold - 20 + 1000;
+					cout << "out of no where, a black man dressed in a wizard robe comes flying and give you 1000 gold" << endl;
+					cout << "You now have " << gold << " gold" << endl;
+
+				}
+
+
+			}
+
+
+		}
+
+
+		else if (x1 == "Head") {
+			cout << "You fail to hit his head and the troll eats you." << endl;
+
+		}
+
+
+	}
+
+	else if (x1 == "Wait") {
+		cout << "WTF are you waiting for?" << endl;
+
+	}
+
+
+
+}
