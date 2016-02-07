@@ -1,0 +1,27 @@
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+
+using namespace std; 
+
+
+int main()
+{
+	struct StudentInfo {
+		string name;
+		int grade;
+
+
+	};
+
+	StudentInfo student1;
+	student1.name = "Geom";
+		student1.grade = 1000000;
+
+		cout << student1.name << endl;
+	cout << student1.grade << "%" << endl;
+
+
+
+    return 0;
+}
