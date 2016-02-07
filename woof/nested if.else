@@ -1,0 +1,48 @@
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+
+int main()
+{
+	string gender;
+	int age;
+	string yesNo;
+
+
+	cout << "Are you male or female?:";
+	cin >> gender;
+
+
+	if (gender == "male")
+	{
+
+		cout << "How old are you ?:";
+		cin >> age;
+
+		if (age > 17)
+			yesNo = "do";
+		else
+			yesNo = "don't";
+
+
+
+
+	}
+	
+	else
+	{
+
+		yesNo = "Don't";
+
+	}
+
+
+	cout << "you " << yesNo << " qualify for the team" << endl;
+
+
+	return 0;
+
+}
