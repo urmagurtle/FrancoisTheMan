@@ -1,0 +1,25 @@
+// Square and power.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+
+int main()
+{
+	double a = 3;
+	double b = 4;
+	double c;
+
+	c = sqrt(pow(3, 2) + pow(4, 2));
+
+		cout << c << endl;
+
+
+
+    return 0;
+}
+
