@@ -24,6 +24,14 @@ int main()
 	cout << n << endl;
 
 
+	string sub = wholename.substr(0, 3); // 0 is the position it starts at. So it starts a "m" of "meow" (m0 e1 o2 w3) and 3 is the length of the string
+
+	cout << sub << endl;
+
+
+	return 0;
+}
+
 
 	return 0;
 }
