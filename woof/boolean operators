@@ -1,0 +1,42 @@
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+
+int main()
+{
+	
+	int temp;
+	string phase;
+
+	cout << "what is the temperature in celcius?:";
+
+	cin >> temp;
+
+
+	if (temp > 0 && temp < 100)
+		phase = "liquid";
+
+	else if (temp < 0)
+		phase = "solid";
+	else
+		phase = "gas";
+
+	cout << "the phase of the water is " << phase << endl;
+
+
+
+	return 0;
+
+}
+
+
+/*
+
+&& = and
+
+|| = or
+
+*/
