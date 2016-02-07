@@ -1,0 +1,40 @@
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+int main()
+{
+
+	double precipitation;
+	string schoolStatus;
+
+	cout << "How many feet of snow fell last night:";
+	cin >> precipitation;
+
+	if (precipitation > 3)
+	{
+		schoolStatus = "closed";
+	}
+
+
+
+	else {
+		schoolStatus = "open";
+	
+	}
+
+	cout << "School is " << schoolStatus << " today" << endl;
+
+
+
+
+
+
+
+
+
+	return 0;
+}
