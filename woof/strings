@@ -1,0 +1,29 @@
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+/* this program is worth 60 million $,
+please give me money*/
+
+int main()
+{
+	string part1 = "meow";
+	string part2 = "4";
+	string part3 = "pow";
+
+	cout << part1 << " " << part2 << " " << part3 << endl;
+
+	string wholename = part1 + part2 + part3;
+
+	cout << wholename << endl;
+
+	int n = wholename.length();
+
+	cout << n << endl;
+
+
+
+	return 0;
+}
