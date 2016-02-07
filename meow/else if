@@ -1,0 +1,41 @@
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+int main()
+{
+	cout << "what is the percentage of your day you spend thinking of pepe ?" << endl;
+		int x;
+	cin >> x;
+
+	if (x == 100) {
+		cout << "ur a true nigger :^)" << endl;
+	}
+	else if (x > 90) {
+		cout << "ur kind of dank" << endl;
+	}
+	else if (x > 80) {
+		cout << "You should think about him more often" << endl;
+	}
+	else if (x > 70) {
+		cout << "don't you ever think about him?" << endl;
+	}
+	else if (x > 60) {
+		cout << "i'll have to tell pepe about this" << endl;
+	}
+	else if (x > 50) {
+		cout << "definitively going to call the meme police on you" << endl;
+	}
+	else if (x > 40) {
+		cout << "why must you be so cruel" << endl;
+	}
+	else if (x <= 40) {
+		cout << "this is unforgivable :'(" << endl;
+	}
+
+
+	return 0;
+}
