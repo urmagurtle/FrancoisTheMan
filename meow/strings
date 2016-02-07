@@ -1,0 +1,24 @@
+// ConsoleApplication10.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+int main()
+{
+	string part1 = "fuck";
+	string part2 = "visual";
+	string part3 = "studio";
+
+	cout << part1 << " " << part2 << " " << part3 << endl;
+
+	string whole = part1 + " " + part2 + " " + part3;
+	cout << whole << endl;
+
+    return 0;
+}
+
