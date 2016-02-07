@@ -19,6 +19,8 @@ int main()
 	string whole = part1 + " " + part2 + " " + part3;
 	cout << whole << endl;
 
+	int n = whole.length();
+		cout << n << endl;
+
     return 0;
 }
-
